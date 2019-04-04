@@ -1,0 +1,228 @@
+/* style.css */
+body{
+  background: white;
+  color: #1A2B63;
+  font-size: 40x;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  margin: 0;
+}
+
+h1{
+  font-family: 'Dancing Script', cursive;
+  letter-spacing: -1px;
+  margin: 0 auto 12px auto;
+  color: white;
+  font-weight: bolder;
+  font-size: 150px;
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 30px;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  letter-spacing: 3;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color:#807D7D;
+  font-size: 18px;
+  text-align: center;
+  }
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  letter-spacing: 2x;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color:#807D7D;
+  font-size: 18px;
+  text-align: center;
+  }
+
+
+  h4{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #FE3745;
+  letter-spacing: 2px;
+  margin: 0 auto 12px auto;
+  color:white;
+  font-weight: lighter;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px 0;
+  margin-left: 5px;
+  margin-right: 5px;
+  }
+
+  h5{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 0x;
+  margin: 0 auto 12px auto;
+  color:#807D7D;
+  font-size: 15px;
+  text-align: left;
+  }
+
+  h6{
+  font-family: 'Source+Sans+Pro'
+  font-weight: lighter;
+  letter-spacing: 0x;
+  margin: 0 auto 12px auto;
+  color:#E2E1E1;
+  font-weight: lighter;
+  font-size: 15px;
+  text-align: left;
+  }
+
+  p{
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder;
+  letter-spacing: 2x;
+  margin: 0 auto 12px auto;
+  color:white;
+  font-size: 30px;
+  text-align: center;
+  }
+
+  h7{
+  font-family: 'Dancing Script', cursive;
+  letter-spacing: -1px;
+  margin: 0 auto 12px auto;
+  color:#1A91A1;
+  font-weight: bolder;
+  font-size: 60px;
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 30px;
+}
+
+#banner {
+  background-image: url('images/flower.jpg');
+  padding: 150px 0;
+  color: white;
+  background-size: cover;
+  text-align: center;
+}
+
+
+#banner p {
+  font-size: 24px;
+  opacity:0.7;
+  margin-bottom: 40px;
+}
+
+
+a {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 40px;
+  opacity: 0.9;
+  background-color: #27C7E3;
+}
+a:hover {
+  text-decoration: underline;
+  color: #BA294C;
+  font-weight: bolder;
+}
+
+
+.container {
+  width: 100%; 
+  background-image: url("images/monde.png" );
+  box-shadow: 0 4px 6px rgba(50,50,93,.11); 
+}
+
+
+.rectangle {
+  height: 10px;
+  width: 50px;
+  background-color: #FE3745;
+  align-self: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+
+.btn-blue {
+  color: white;
+  background-color: #ECAA4D;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(#E8193F);
+  padding: 15px 20px;
+  margin: 30px
+  margin-bottom:10px;
+  margin-top: 10px;
+  align-items: left;
+}
+
+a.bouton{
+  color: white;
+  background-color: #FE3745;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(#E8193F);
+  padding: 15px 20px;
+  margin: 30px;
+  margin-bottom:10px;
+  margin-top: 140px;
+  font-family: 'Amiko', sans-serif;
+}
+
+a.bouton:hover{
+background-color: #3EB7FF;
+color:white;
+text-align: center;
+padding: 15px 20px;
+color:white;
+
+}
+.card{
+  background-color: white;
+border: none;
+}
+.card-body {
+  background-color: white;
+border: none;
+}
+.card-white {
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 16px;
+  margin: 16px 0px;
+}
+
+.card-title {
+  background-color: #F3F3F3;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 16px;
+  margin: 16px 0px;
+}
+
+
+.btn-primary {
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 16px;
+  margin-bottom: 15px;
+
+  }
+
+#footer {
+  background-image: url('images/flower.jpg');
+  padding: 50px 0;
+  color: white;
+  background-size: cover;
+  text-align: center;
+}
